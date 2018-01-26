@@ -10,7 +10,7 @@ Button.prototype = {
 		this.$element.on('click', function() {
 			alert(self.text);
 		});
-		$('body').append(this.$element); //alternatywnie: this.$element.appendTo($('body'));
+		$('body').append(this.$element);
 	}
 }
 
